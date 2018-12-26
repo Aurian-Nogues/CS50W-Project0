@@ -9,7 +9,7 @@ body {
   background-color: #d4d7dd;
   font-family: Helvetica, sans-serif; }
 
-h1, p, .index-eras, h4.succession-legend, h6.succession-legend, h1.era-titles, h2.era-titles, ul > ol, table th, table td {
+h1, p, .index-eras, h4.succession-legend, h6.succession-legend, h1.era-titles, h2.era-titles, ul > ol, #Copyright, table th, table td {
   font-family: Helvetica, sans-serif;
   color: #484b4f; }
 
@@ -45,7 +45,11 @@ h2.era-titles {
   text-align: center; }
 
 ul > ol {
-  font-size: 18px; }
+  font-size: 16px; }
+
+#Copyright {
+  font-size: 12px;
+  text-decoration: underline; }
 
 table {
   margin-top: 25px;

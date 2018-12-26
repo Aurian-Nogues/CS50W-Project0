@@ -81,8 +81,15 @@ h2.era-titles{
 //Use selector to format second level of list
 ul >ol {
     @extend %text;
-    font-size: 18px;
+    font-size: 16px;
 }
+
+#Copyright{
+    @extend %text;
+    font-size: 12px;
+    text-decoration: underline;
+}
+
 
 //Format tables
 
