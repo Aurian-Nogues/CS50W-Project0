@@ -3,6 +3,8 @@ $BaseColor:#484b4f;
 $backgroundColor: #edeeef;
 $fonts: Helvetica, sans-serif;
 $NavbarColor: #d4d7dd;
+$TableLineColorExt: black;
+$TableLineColorInt: #595757;
 
 //Display hyperlinks like normal text and not in blue
 a {
@@ -52,3 +54,30 @@ ul >ol {
     @extend %text;
     font-size: 18px;
 }
+
+//Format tables
+
+ table {
+        margin-top: 25px;
+        border: 2px solid $TableLineColorExt;
+        border-collapse: collapse;
+        width: 100%;
+
+        th {
+            border: 2px solid $TableLineColorExt;
+            background-color: #b2b2b2;
+            @extend %text;
+            font-size: 16px;
+            text-align: center; 
+            vertical-align: middle;
+        }
+
+        td {
+            border: 1px solid $TableLineColorInt;
+            @extend %text;
+            font-size: 12px;
+            text-align: left; 
+            vertical-align: middle;
+        }
+
+    }
