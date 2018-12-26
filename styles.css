@@ -1,0 +1,18 @@
+body {
+  background-color: #edeeef;
+  font-family: Helvetica, sans-serif; }
+
+h1, p {
+  font-family: Helvetica, sans-serif;
+  color: #484b4f; }
+
+h1 {
+  font-size: 22px;
+  margin-left: 30px;
+  margin-top: 30px; }
+
+p {
+  font-size: 16px;
+  margin-left: 30px; }
+
+/*# sourceMappingURL=styles.css.map */
