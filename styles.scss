@@ -31,22 +31,51 @@ body {
 }
     
 h1 {
-        @extend %text;
-        font-size: 24px;
-        margin-left: 30px;
-        margin-top: 30px;
+    @extend %text;
+    font-size: 24px;
+    margin-left: 30px;
+    margin-top: 30px;
 }
 
 p {
-        @extend %text;
-        font-size: 16px;
-        margin-left: 30px;
+    @extend %text;
+    font-size: 16px;
+    margin-left: 30px;
 }
 
 //Use class to format first level of index list
 .index-eras{
     @extend %text;
     font-size: 22px;
+}
+
+h4.succession-legend{
+    @extend %text;
+    font-weight: bold;
+    margin-top: 25px;
+    font-size: 20px;
+}
+
+h6.succession-legend{
+    @extend %text;
+    font-size: 14px;
+
+
+}
+
+h1.era-titles{
+    @extend %text;
+    font-size: 28px;
+    margin-top: 30px;
+    text-align: center; 
+    font-weight: bold;
+
+}
+h2.era-titles{
+    @extend %text;
+    font-size: 20px;
+    margin-bottom: 30px;
+    text-align: center; 
 }
 
 //Use selector to format second level of list
