@@ -24,7 +24,7 @@ body {
     font-family: $fonts;
 }
 
-//Use inheritance and .class to style elements of the website
+//Use inheritance to style elements of the website
 %text{
      font-family: $fonts;
      color: $BaseColor;
@@ -117,3 +117,9 @@ ul >ol {
         }
 
     }
+
+.portrait{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
