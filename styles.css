@@ -73,4 +73,11 @@ table {
   margin-left: auto;
   margin-right: auto; }
 
+@media (max-width: 499px) {
+  #mainTitle {
+    font-size: 25px; } }
+@media (min-width: 500px) {
+  #mainTitle {
+    font-size: 45px; } }
+
 /*# sourceMappingURL=styles.css.map */

@@ -123,3 +123,12 @@ ul >ol {
   margin-left: auto;
   margin-right: auto;
 }
+
+#mainTitle{
+    @media (max-width: 499px){
+        font-size: 25px;
+    }
+    @media (min-width: 500px){
+        font-size: 45px;
+    }
+}
