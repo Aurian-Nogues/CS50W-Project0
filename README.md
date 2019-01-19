@@ -3,6 +3,8 @@
 Web Programming with Python and JavaScript
 # Project0
 
+test
+
 This project's aim is to build a website presenting the roman emperors and some basic information about their reign.
 
 On top of each page you can find a Navbar that allows you to quickly navigate between the different eras and the homepage of the website. The navbar collases into a list on smaller screens.
