@@ -1,9 +1,6 @@
 # Project 0
 Web Programming with Python and JavaScript
 
-
-test
-
 This project's aim is to build a website using HTML, CSS and SCSS.
 The websiste should use bootstrap and adapt to different screen sizes.
 
